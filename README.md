@@ -1,6 +1,7 @@
 # ProU Track 1&2&3
 
 #### Submission By Aryansh Gupta - 22BCE10404
+> ***Check Here : https://pro-u-frontend-theta.vercel.app/***
 
 > Original Frontend Repo : https://github.com/aryanshdev/ProU-Frontend
 
@@ -14,6 +15,24 @@ The System Works on Both Mock Data (Track 1) and Actual Real Data stored in Data
 The Prototype is very simple and uses as fairly simple architecture. I given time I can also make this scalable by dividing the system into microservices and adding brokers like Kafka.
 
 ![System Architecture](./readme_imgs/sysarch.png)
+
+### Screenshots
+
+![HomePage](./readme_imgs/homepage.png)
+
+
+![Mockdata Dashbaord](./readme_imgs/mockdata.png)
+
+
+![Adding Real User Page](./readme_imgs/addingEmp.png)
+
+![Stats Page](./readme_imgs/stats.png)
+
+![Real Options](./readme_imgs/options.png)
+
+![Attendance Update](./readme_imgs/attendUpdate.png)
+
+
 ### Technologies Used
 
 - **Frontend (Track 1 & 3)** : NextJS
