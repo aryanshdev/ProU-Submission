@@ -9,7 +9,7 @@
 ## About
 
 I have created a Employee Management System for my submission in Track 1 & 2 & 3.<br />
-The System Works on Both Mock Data (Track 1) and Actual Real Data stored in Database and Fetched via APIs (Track 2 & 3)
+The System Works on Both Mock Data (Track 1) and Actual Real Data stored in Database and Fetched via APIs (Track 2 & 3). 
 ### System Architecture
 The Prototype is very simple and uses as fairly simple architecture. I given time I can also make this scalable by dividing the system into microservices and adding brokers like Kafka.
 
@@ -21,3 +21,65 @@ The Prototype is very simple and uses as fairly simple architecture. I given tim
 - **Database (Track 2 & 3)** : PostgreSQL
 - **Authentication (Bonus)** : Google OAuth, JWT
 - **Deployement (Bonus)** : Render For Backend, Vercel For Frontend
+
+
+
+
+## Getting started
+
+These quick steps will get the project running locally. The repo contains two main folders: `frontend/` and `Backend/`.
+
+#### Prerequisites
+- Node.js 
+- npm 
+- PostgreSQL (only required for backend real-data mode)
+
+1) Backend
+
+- cd into `Backend/`
+- create a `.env` file (example values below) and ensure your Postgres connection is available.
+	- Example `.env` values:
+		- DATABASE_URL=postgres://user:password@localhost:5432/prou_db
+		- PORT=5000
+- install and run:
+
+```bash
+cd Backend
+npm install
+node server.js
+```
+
+2) Frontend
+
+- cd into `frontend/`
+- install and run Next.js dev server:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:3000 (frontend) and confirm the frontend can reach the backend API (if running).
+
+
+## Features
+
+- Dashboard with employee stats (mock & real data)
+- Employee listing, add/edit/remove (Backend Required - **Track 2**)
+- Authentication via Google OAuth + JWT (**Bonus**)
+- Configurable to run in mock-mode (Frontend **Track 1**) or full API mode (**Track 3**)
+
+## Project structure
+
+- `frontend/` — Next.js app (pages, components, assets)
+- `Backend/` — Express server, routes, DB connection
+- `readme_imgs/` — images for this docs repo (system architecture)
+
+## Submitted By
+
+Author: Aryansh Gupta — 22BCE10404
+
+Repo used for submissions.
+
+---
