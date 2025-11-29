@@ -34,7 +34,7 @@ The Prototype is very simple and uses as fairly simple architecture. I given tim
 
 ### Screenshots
 
-[Video Demo Here](https://drive.google.com/file/d/1aFNo6-WyXJVtWWCYAcrbrCMMNVrxqfUK/view?usp=drive_link)
+[**Video Demo Here**](https://drive.google.com/file/d/1aFNo6-WyXJVtWWCYAcrbrCMMNVrxqfUK/view?usp=drive_link)
 
 ![HomePage](./readme_imgs/homepage.png)
 
