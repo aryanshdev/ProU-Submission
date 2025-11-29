@@ -1,11 +1,27 @@
 # ProU Track 1&2&3
 
 #### Submission By Aryansh Gupta - 22BCE10404
-> ***Check Here : https://pro-u-frontend-theta.vercel.app/***
+> ***Check Here : https://pro-u-frontend-theta.vercel.app/*** 
+
+> ***Video Here : https://drive.google.com/file/d/1aFNo6-WyXJVtWWCYAcrbrCMMNVrxqfUK/view?usp=drive_link***
 
 > Original Frontend Repo : https://github.com/aryanshdev/ProU-Frontend
 
 > Original Backend Repo : https://github.com/aryanshdev/ProU-Backend
+
+## Table of Contents
+
+- [About](#about)
+  - [System Architecture](#system-architecture)
+  - [Screenshots](#screenshots)
+  - [Technologies Used](#technologies-used)
+- [Getting Started And Setup](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Backend Setup](#1-backend)
+  - [Frontend Setup](#2-frontend)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Submitted By](#submitted-by)
 
 ## About
 
@@ -17,6 +33,8 @@ The Prototype is very simple and uses as fairly simple architecture. I given tim
 ![System Architecture](./readme_imgs/sysarch.png)
 
 ### Screenshots
+
+[Video Demo Here](https://drive.google.com/file/d/1aFNo6-WyXJVtWWCYAcrbrCMMNVrxqfUK/view?usp=drive_link)
 
 ![HomePage](./readme_imgs/homepage.png)
 
@@ -53,7 +71,7 @@ These quick steps will get the project running locally. The repo contains two ma
 - npm 
 - PostgreSQL (only required for backend real-data mode)
 
-1) Backend
+#### 1) Backend
 
 - cd into `Backend/`
 - create a `.env` file (example values below) and ensure your Postgres connection is available.
@@ -68,7 +86,7 @@ npm install
 node server.js
 ```
 
-2) Frontend
+#### 2) Frontend
 
 - cd into `frontend/`
 - install and run Next.js dev server:
